@@ -1,0 +1,1 @@
+from .jetson_nano import InstSegmYOLOv7
