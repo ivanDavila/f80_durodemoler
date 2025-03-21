@@ -8,11 +8,11 @@ import numpy as np
 import cv2
 #...........................
 
-from f80.yolov7.models.common import DetectMultiBackend
-from f80.yolov7.utils.general import check_img_size, non_max_suppression
-from f80.yolov7.utils.segment.general import process_mask
+from f80.yolo.models.common import DetectMultiBackend
+from f80.yolo.utils.general import check_img_size, non_max_suppression
+from f80.yolo.utils.segment.general import process_mask
 # from f80.yolov7.utils.segment.plots import plot_masks
-from f80.yolov7.utils.plots import colors
+from f80.yolo.utils.plots import colors
 
 def overlay(image, mask, color, alpha, resize=None):
     """Combines image and its segmentation mask into a single image.
