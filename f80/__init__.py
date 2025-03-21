@@ -1,5 +1,5 @@
 from .fifo import Fifo
-from .modbusthread import ModbusThread
+# from .modbusthread import ModbusThread
 from .csv_report import append_csv
 # from .rr_function import RR, ESC_FF
 from .get_date import get_date
