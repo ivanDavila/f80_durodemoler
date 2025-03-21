@@ -21,12 +21,12 @@ import torch.nn.functional as F
 from PIL import Image
 from torch.cuda import amp
 
-from f80.yolov7.utils.dataloaders import exif_transpose, letterbox
-from f80.yolov7.utils.general import (LOGGER, ROOT, Profile, check_requirements, check_suffix, check_version, colorstr,
+from f80.yolo.utils.dataloaders import exif_transpose, letterbox
+from f80.yolo.utils.general import (LOGGER, ROOT, Profile, check_requirements, check_suffix, check_version, colorstr,
                            increment_path, make_divisible, non_max_suppression, scale_coords, xywh2xyxy, xyxy2xywh,
                            yaml_load)
 # from f80.yolov7.utils.plots import Annotator, colors, save_one_box
-from f80.yolov7.utils.torch_utils import copy_attr, smart_inference_mode
+from f80.yolo.utils.torch_utils import copy_attr, smart_inference_mode
 
 
 def autopad(k, p=None):  # kernel, padding
