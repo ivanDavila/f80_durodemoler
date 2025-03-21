@@ -1,0 +1,11 @@
+{
+    "main_shedule":{
+      "actual_day":"2023-11-23",
+      "time":"00:00:00"
+    },
+    "adquire_image":{
+      "time" : ["16:30:00", "16:31:00"],
+      "aquired" : [],
+      "command": "adquire_image"
+    }
+}

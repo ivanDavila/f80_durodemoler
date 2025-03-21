@@ -1,0 +1,135 @@
+{
+  "img_path": "D:/Biblioteca/cerrolindo/imagenes_rec/20211022_075341.png",
+  "model_path": "C:/Users/Ivan/Documents/Python/ECN-Automation/yolov7-segmentation/pts/best_faja4_v2.pt",
+  "lookup_path": "C:/Users/Ivan/OneDrive - electro controles del noroeste/F80METER/1. Proyectos/2. Cobre del Mayo/6. Desarrollo/lookuptable.txt",
+  "img_sim_path" : "D:/1.DATA/1.F80Meter/02.cerroLindo_faja04/Cam_faja08-20240222",
+  "img_save_path" : "C:/Users/Ivan/Documents/Python/ECN-Automation/F80Meter-cerrolindo/results/image",
+  "num_image_save": 10,
+  "host" : "127.0.0.1",
+  "port" : 5000,
+  "status_port" : 5001,
+  "modbus_host" : "192.168.137.14",
+  "modbus_port" : 502,
+  "conf_thresh" : 0.45,
+  "iou_thresh" : 0.20,
+  "max_det" : 40,
+  "windowing": [
+    256,
+    256
+  ],
+  "origins": [
+    100,
+    50
+  ],
+  "offset": 50,
+  "NumBoxes": [
+    3,
+    3
+  ],
+  "ImgExtract_Point1": [
+    0,
+    0
+  ],
+  "ImgExtract_Point2": [
+    2024,
+    1500
+  ],
+  "mirror": false,
+  "lookup_table_check": false,
+  "rotation": "None",
+  "enableMinorSegm": false,
+  "RectImages": [
+    [
+      [
+        100,
+        700
+      ],
+      [
+        356,
+        444
+      ]
+    ],
+    [
+      [
+        100,
+        494
+      ],
+      [
+        356,
+        238
+      ]
+    ],
+    [
+      [
+        100,
+        288
+      ],
+      [
+        356,
+        32
+      ]
+    ],
+    [
+      [
+        306,
+        700
+      ],
+      [
+        562,
+        444
+      ]
+    ],
+    [
+      [
+        306,
+        494
+      ],
+      [
+        562,
+        238
+      ]
+    ],
+    [
+      [
+        306,
+        288
+      ],
+      [
+        562,
+        32
+      ]
+    ],
+    [
+      [
+        512,
+        700
+      ],
+      [
+        768,
+        444
+      ]
+    ],
+    [
+      [
+        512,
+        494
+      ],
+      [
+        768,
+        238
+      ]
+    ],
+    [
+      [
+        512,
+        288
+      ],
+      [
+        768,
+        32
+      ]
+    ]
+  ],
+  "cumulative_size": 1,
+  "f100_rock_size": 30
+}

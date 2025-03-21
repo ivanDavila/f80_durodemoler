@@ -1,0 +1,6 @@
+*__pycache__/
+*results/
+*.csv
+*.db
+*.vscode/
+error-log.txt

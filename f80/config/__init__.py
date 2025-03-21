@@ -1,0 +1,1 @@
+from .config_gDigital import read_config, write_config

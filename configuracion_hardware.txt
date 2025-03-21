@@ -1,0 +1,53 @@
+F80METER MOLINO BOLAS
+
+JETSON TX2
+user: ecnjetson
+clave: nP{fk256{DcNuf5!!"#;:,2iu_uihS
+ip: 192.168.137.85
+mask: 255.255.255.0
+gateway: 192.168.137.1
+
+user: pi
+paswd: raspberry
+ip: 192.168.0.20
+mask: 255.255.255.0
+
+CAMARA
+ip cam: 192.168.137.10
+mask: 255.255.255.0
+
+REVPI
+usuario: pi
+clave: ssd074
+ip_01: 192.168.137.22
+mask: 24
+ip_02: 192.168.0.40
+mask: 24
+
+--------------------------------------------------
+F80METER MOLINO BOLAS
+
+JETSON TX2
+USER: ecn
+Password: n4V2?675T42%c356v9n
+ETH0: 192.168.101.12
+ETH1: 192.168.137.22
+
+CAMARA
+IP CAMARA
+192.168.137.8
+MASK 24
+
+--------------------------------------------------
+MINA CUARTO DE CONTROL
+
+computadora Cuarto control:
+pi: 192.168.137.12
+mask: 24
+
+DCS
+192.168.0.1
+
+Clave Anydesk
+usuario: 663030572
+Contraseña: F80Meter-NEXA
