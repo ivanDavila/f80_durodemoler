@@ -11,7 +11,7 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from f80.yolov7.utils import TryExcept, threaded
+from f80.yolo.utils import TryExcept, threaded
 
 
 def fitness(x):

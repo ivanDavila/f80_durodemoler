@@ -19,10 +19,10 @@ import seaborn as sn
 import torch
 from PIL import Image, ImageDraw, ImageFont
 
-from f80.yolov7.utils import TryExcept, threaded
-from f80.yolov7.utils.general import (CONFIG_DIR, FONT, LOGGER, check_font, check_requirements, clip_coords, increment_path,
+from f80.yolo.utils import TryExcept, threaded
+from f80.yolo.utils.general import (CONFIG_DIR, FONT, LOGGER, check_font, check_requirements, clip_coords, increment_path,
                            is_ascii, xywh2xyxy, xyxy2xywh)
-from f80.yolov7.utils.metrics import fitness
+from f80.yolo.utils.metrics import fitness
 
 # Settings
 RANK = int(os.getenv('RANK', -1))

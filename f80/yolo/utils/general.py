@@ -33,9 +33,9 @@ import torch
 import torchvision
 import yaml
 
-from f80.yolov7.utils import TryExcept
-from f80.yolov7.utils.downloads import gsutil_getsize
-from f80.yolov7.utils.metrics import box_iou, fitness
+from f80.yolo.utils import TryExcept
+from f80.yolo.utils.downloads import gsutil_getsize
+from f80.yolo.utils.metrics import box_iou, fitness
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[1]  # YOLOv5 root directory

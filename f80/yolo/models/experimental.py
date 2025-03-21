@@ -8,7 +8,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from f80.yolov7.utils.downloads import attempt_download
+from f80.yolo.utils.downloads import attempt_download
 
 
 class Sum(nn.Module):
